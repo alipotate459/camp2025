@@ -1,0 +1,17 @@
+:root {
+    --background: #EEEEEE;
+    --primary: #000000;
+    --fonts: "Libertinus Math", system-ui;
+}
+
+
+body {
+    background-color: var(--background);
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    font-family: var(--fonts);
+}
